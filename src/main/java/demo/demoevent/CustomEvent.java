@@ -4,6 +4,11 @@ import org.springframework.context.ApplicationEvent;
 
 import lombok.Data;
 
+/**
+ * Custom Application Event
+ * @author Johnson Fu
+ *
+ */
 @Data
 public class CustomEvent extends ApplicationEvent{
 
