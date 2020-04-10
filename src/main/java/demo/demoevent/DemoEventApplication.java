@@ -12,14 +12,13 @@ import org.springframework.scheduling.annotation.EnableAsync;
 import lombok.extern.slf4j.Slf4j;
 
 /**
- * Enable the Async...
+ * Demo of using Spring Custom Event
  * 
  * @author Johnson Fu
  *
  */
 @SpringBootApplication
 @Slf4j
-@EnableAsync
 public class DemoEventApplication implements CommandLineRunner {
 	
 	@Autowired
